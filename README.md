@@ -25,16 +25,24 @@ ESIGN$D
 Now, sort these strings with the string that starts with $ to be the first element:
 
 $DESIGN
-> DESIGN$
-> ESIGN$D
-> GN$DESI
-> IGN$DES
-> N$DESIG
-> SIGN$DE
+
+DESIGN$
+
+ESIGN$D
+
+GN$DESI
+
+IGN$DES
+
+N$DESIG
+
+SIGN$DE
+
 Finally, your BW Transform is all of the last characters of these seven strings, and N$DISGE is your transform!
 
 ### Uses of the BWT
 The BWT is used frequently in DNA sequencing and database querying in general.
+
 BWT is also used in compression, like in bzip2. Dr. Skiena says: "The Burrows-Wheeler string is typically 10-15% more compressible than the original text, because repeated words turn into blocks of repeated characters" (638).
 
 ### HOW TO USE THIS PYTHON PROGRAM: There is a two-step process:
