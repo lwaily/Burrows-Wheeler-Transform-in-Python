@@ -7,15 +7,24 @@ This procedure is also reversible.
 
 ### Example
 Consider the example string DESIGN. First, append "$" to DESIGN, so you would get DESIGN$. Then, rotate that string six times (because DESIGN is six letters long). You get:
-> DESIGN$
-> $DESIGN
-> N$DESIG
-> GN$DESI
-> IGN$DES
-> SIGN$DE
-> ESIGN$D
+
+DESIGN$
+
+$DESIGN
+
+N$DESIG
+
+GN$DESI
+
+IGN$DES
+
+SIGN$DE
+
+ESIGN$D
+
 Now, sort these strings with the string that starts with $ to be the first element:
-> $DESIGN
+
+$DESIGN
 > DESIGN$
 > ESIGN$D
 > GN$DESI
